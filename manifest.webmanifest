@@ -1,0 +1,28 @@
+{
+  "name": "Vocab Cage",
+  "short_name": "Vocab Cage",
+  "description": "Prefixes, roots and suffixes for medical, engineering and subject vocabulary. Works offline.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F3F5F1",
+  "theme_color": "#12584F",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
