@@ -33,9 +33,14 @@ This folder is the offline phone app. Put it on GitHub Pages once (free). Then a
 2. In the online app, open settings and **Import** the file or text. Words are merged: nothing is duplicated, the newer card is kept, and the most recent review progress wins.
 3. Tap **Complete drafts with AI** to fill in meanings, examples and full breakdowns.
 
-## Updating the app later
+## Updating the app later (you already have it on GitHub)
 
-When a new version is built, upload the changed files to the same GitHub repository again, replacing the old ones. The phone picks up the update the next time you open the app with signal. Close the app and open it once more to see it.
+1. On your PC, open your `vocab-cage` repository on github.com.
+2. Click **Add file → Upload files**.
+3. From `K:\UsefulTools\Vocabulary\offline-app`, drag in **everything**: `index.html`, `sw.js`, `manifest.webmanifest`, and the `icons` and `vendor` folders. Files with the same name replace the old ones. `vendor` is new since the printable word list, so make sure it goes in as a folder.
+4. Click **Commit changes**. Wait 1–2 minutes (the repository's **Actions** tab shows a green tick when the site has updated).
+5. On your iPhone, open Vocab Cage from the home screen **with signal**, wait a few seconds, then close it fully (swipe it away) and open it again. The new version shows from then on.
+6. Your words stay on the phone through updates. Saving a backup first (settings button → **Share backup file**) is still a good habit.
 
 ## Good to know
 

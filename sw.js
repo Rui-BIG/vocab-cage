@@ -1,6 +1,6 @@
 // Vocab Cage offline service worker. Bump VERSION to ship an update.
-const VERSION = "vocab-cage-202610181220";
-const SHELL = ["./", "./index.html", "./manifest.webmanifest", "./icons/icon-192.png", "./icons/icon-512.png", "./icons/apple-touch-icon.png"];
+const VERSION = "vocab-cage-202610212226";
+const SHELL = ["./", "./index.html", "./manifest.webmanifest", "./icons/icon-192.png", "./icons/icon-512.png", "./icons/apple-touch-icon.png", "./vendor/jspdf.umd.min.js"];
 const FONT_CSS = "https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Charis+SIL:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@500&display=swap";
 
 self.addEventListener("install", (event) => {
